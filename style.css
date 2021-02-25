@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Atlas";
+  src: url("atlas.otf") format("otf");
+}
+
+body {
+font-family: Atlas, sans-serif;
+font-size: 14px;
+text-rendering: geometricPrecision;
+font-smoothing: antialased;
+margin: 0;
+line-height: 1.4;
+}
+
+.icon {
+  height: 14px;
+  width: auto;
+  vertical-align: -2px;
+}
+
+.active {
+text-decoration: none;
+margin-right: 16px;
+color: #000000;
+padding-bottom: 18px;
+border-bottom: 1px solid #000000;
+}
+
+.inactive {
+text-decoration: none;
+margin-right: 16px;
+color: #C1C1C1;
+}
+
+.container {
+  margin: auto;
+  max-width: 600px;
+  padding: 48px 8px 24px;
+}
+
+.content {
+  padding-top: 48px;
+}
+
+.selector {
+  padding-top: 72px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #C1C1C1;
+}
+
+.header {
+  background-color: white;
+  display: block;
+  position: inherit;
+  top: 0;
+  z-index: 100;
+}
+
+.nav {
+  text-decoration: none;
+  color: black;
+}
+
+.desc {
+  text-decoration: underline;
+  color: black;
+  float: right;
+}
+
+.wide {
+  margin: auto;
+  background-color: white;
+  max-width: 900px;
+  margin: auto;
+  padding: 48px 8px 24px;
+}
+
+.invert {
+  color: white;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 48px;
+  font-weight: normal;
+  padding-top: 42px;
+  line-height: 1.2;
+}
+
+img {
+  box-sizing: border-box;
+  width: 100%;
+  transition: 0.3s;
+  filter: brightness(100%);
+}
+
+img:hover {
+ filter: brightness(95%);
+ transition: 0.3s;
+}
